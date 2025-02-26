@@ -2,7 +2,7 @@
 
 Usage:
 ```bash
-rails new your_app_name -m https://raw.githubusercontent.com/windborne/rails-template/blob/main/template.rb -J -T
+rails new your_app_name -m https://raw.githubusercontent.com/windborne/rails-template/refs/heads/main/template.rb -J -T
 ```
 
 This will set up a new Rails application.
