@@ -70,3 +70,4 @@ None of these are set up by default to keep things simple.
 - Set up cursor rules
 - Add a `--no-react` flag to skip react-rails
 - Add a `--sidekiq` flag to set up sidekiq
+- Create a default SCSS file for global styles
