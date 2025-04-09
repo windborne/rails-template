@@ -1,15 +1,3 @@
-## Notes from John on installing rails on ubuntu:
-this might not be good advice
-+ `sudo apt-get install libyaml-dev libsqlite3-dev pkg-config npm rbenv` <- you might all or some of these
-+ MAKE SURE TO ADD STUFF TO BASHRC AND THEN SOURCE IT!
-+ make sure `which ruby` and `which rails` show an rbenv path.
-+ `gem install rails`
-+ exit bash and restart it
-+ Okay now you can install the download the template
-+ go to the directory and `bundle install` and then also `rail shakapacker:install` and `npm install mini-css-extract-plugin`
-+ If you have more issues tbh Claude 3.7 is pretty helpful
-
-
 # Rails Template
 
 Usage:
@@ -20,6 +8,8 @@ rails new your_app_name -m https://raw.githubusercontent.com/windborne/rails-tem
 This will set up a new Rails application.
 `cd your_app_name` and run `foreman start -f Procfile.dev` to start the app.
 You can go to http://localhost:3000 to see the app running.
+
+See [ubuntu_installation.md](ubuntu_installation.md) for installation help.
 
 ## Things to try
 
