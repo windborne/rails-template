@@ -1,11 +1,13 @@
 ## Notes from John on installing rails on ubuntu:
 this might not be good advice
-+ `sudo apt install rbenv`
++ `sudo apt-get install libyaml-dev libsqlite3-dev pkg-config npm rbenv` <- you might all or some of these
 + MAKE SURE TO ADD STUFF TO BASHRC AND THEN SOURCE IT!
 + make sure `which ruby` and `which rails` show an rbenv path.
 + `gem install rails`
 + exit bash and restart it
-+ `sudo apt-get install libyaml-dev libsqlite3-dev pkg-config` <- you might need this for the template project
++ Okay now you can install the download the template
++ go to the directory and `bundle install` and then also `rail shakapacker:install` and `npm install mini-css-extract-plugin`
++ If you have more issues tbh Claude 3.7 is pretty helpful
 
 
 # Rails Template
