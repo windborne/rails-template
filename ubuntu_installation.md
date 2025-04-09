@@ -38,24 +38,17 @@ rbenv global 3.2.2
 gem install bundler
 gem install rails
 
-##############################
-# INSTALL OTHER DEPENDENCIES #
-##############################
-
+# other dependencies that some gems may need (may not be needed depending on your project)
 sudo apt-get install --no-install-recommends -y \
     libvips \
     postgresql-client \
-    python3 \
-    python3-pip \
-    python3-dev \
-    python3-grib \
+    imagemagick \ 
+    libmagickwand-dev \
+    cmake \
     build-essential git pkg-config libclang-dev clang libpq-dev
-
-bundle install
-
-echo "Installation complete!"
-
 ```
+
+NB: you'll likely want to run `bundle install` in your app directory if you have an existing project.
 
 ## Postgres
 
@@ -97,6 +90,8 @@ curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
+NB: you'll often need to `npm install` in your rails app directory if you have an existing project.
+
 ## Anycable
 ```shell
 wget https://github.com/anycable/anycable-go/releases/download/v1.4.6/anycable-go-linux-amd64
@@ -118,6 +113,13 @@ sudo apt install redis-server
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 ```
 
+## Python
+```shell
+sudo apt install -y \
+    python3 \
+    python3-pip \
+    python3-dev
+```
 
 ## Notes from John on installing rails on ubuntu:
 this might not be good advice
