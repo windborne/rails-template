@@ -1,3 +1,13 @@
+## Notes from John on installing rails on ubuntu:
+this might not be good advice
++ `sudo apt install rbenv`
++ MAKE SURE TO ADD STUFF TO BASHRC AND THEN SOURCE IT!
++ make sure `which ruby` and `which rails` show an rbenv path.
++ `gem install rails`
++ exit bash and restart it
++ `sudo apt-get install libyaml-dev` <- you might need this for the template project
+
+
 # Rails Template
 
 Usage:
