@@ -5,7 +5,7 @@ this might not be good advice
 + make sure `which ruby` and `which rails` show an rbenv path.
 + `gem install rails`
 + exit bash and restart it
-+ `sudo apt-get install libyaml-dev` <- you might need this for the template project
++ `sudo apt-get install libyaml-dev libsqlite3-dev pkg-config` <- you might need this for the template project
 
 
 # Rails Template
